@@ -4,12 +4,12 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "VitePress",
-  description: "我的vitpress文档教程",
+  title: "徐大兵 Brooke",
+  description: "徐大兵Blog",
 
   // #region fav
   head: [
-    ['link',{ rel: 'icon', href: '/logo.png'}],
+    ['link',{ rel: 'icon', href: '/img/logo.png'}],
   ],
   // #endregion fav
 
@@ -50,7 +50,7 @@ export default defineConfig({
   //主题配置
   themeConfig: {
     //左上角logo
-    //logo: '/logo.png',
+    logo: '/img/logo.png',
     //logo: 'https://vitejs.cn/vite3-cn/logo-with-shadow.png', //远程引用
     //siteTitle: false, //标题隐藏
 
@@ -94,15 +94,8 @@ export default defineConfig({
           },
         ],
       },
-      { text: 'VitePress', link: 'https://vitepress.dev/' },
+     // { text: 'VitePress', link: 'https://vitepress.dev/' },
 
-      {
-        text: '1.0.0-rc.20',
-        items: [
-          { text: '更新日志', link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md' },
-          { text: '贡献', link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md' },
-        ],
-      },
     ],
 
 
